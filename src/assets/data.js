@@ -1,3 +1,7 @@
+import avatar1 from "../assets/images/user3.jfif";
+import avatar2 from "../assets/images/user5.jfif";
+import avatar3 from "../assets/images/user6.jfif";
+
 const xAxisData = [
   {
     name: "Jan",
@@ -54,4 +58,66 @@ const dataSemi = [
   { name: "Group F", value: 189 },
 ];
 
-export { xAxisData, dataSemi };
+const transActionData = [
+  {
+    id: 1,
+    customer: "محمد نوری",
+    date: "23 خرداد 1402",
+    amount: 123,
+    status: "نپذیرفتن",
+    imge: avatar1,
+  },
+  {
+    id: 2,
+    customer: "نسیم عابدی",
+    date: "30 تیر 1403",
+    amount: 240,
+    status: "پذیرفتن",
+    imge: avatar2,
+  },
+  {
+    id: 3,
+    customer: "علی عابدی",
+    date: "25 مهر 1401",
+    amount: 300,
+    status: "انتظار",
+    imge: avatar3,
+  },
+  {
+    id: 4,
+    customer: "الناز مجیدی",
+    date: "2 اردیبهشت 1401",
+    amount: 170,
+    status: "پذیرفتن",
+    imge: avatar2,
+  },
+];
+
+const NewMembers = [
+  {
+    id: 1,
+    userName: "الناز نوری",
+    title: "طراح ساختمان",
+    imge: avatar1,
+  },
+  {
+    id: 2,
+    userName: "علی بابایی",
+    title: "دکتر با مهارت بالا",
+    imge: avatar2,
+  },
+  {
+    id: 3,
+    userName: "رضا گودرزی",
+    title: "معلم عالی",
+    imge: avatar3,
+  },
+  {
+    id: 4,
+    userName: "رحا اعتمادی",
+    title: "بهترین پرستار",
+    imge: avatar2,
+  },
+];
+
+export { xAxisData, dataSemi, transActionData, NewMembers };
